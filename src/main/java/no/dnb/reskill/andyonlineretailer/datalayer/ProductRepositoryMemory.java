@@ -16,8 +16,8 @@ public class ProductRepositoryMemory implements ProductRepository{
 
     // pre-populating with the data just to test. Use it normally in Unit-testing
     public ProductRepositoryMemory() {
-        insertProduct(new Product("Lamborghini Sian", 2.2e6, 2));
-        insertProduct(new Product("Bugatti Divo", 4e6,1));
+        insertProduct(new Product("Lamborghini Sian", 2200000, 2));
+        insertProduct(new Product("Bugatti Divo", 4000000,1));
         insertProduct(new Product("Jaguar I-Pacen", 80000, 4));
 
     }

@@ -9,4 +9,8 @@ public interface ProductService {
     Collection<Product> getLowStockProducts(long threashhold);
     double getAveragePrice();
     void adjustPriceByPercent(long id, double byPercent);
+    double findTheMostExpensiveProduct();
+    double findTheLeastExpensiveProduct();
+    void displayProducts();
+    double getPriceWithVat(long productId);
 }
